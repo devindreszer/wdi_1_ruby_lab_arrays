@@ -1,3 +1,5 @@
+require 'pry'
+
 # 1
 days_of_week = %w(Monday Tuesday Wednesday Thursday Friday Saturday Sunday)
 
@@ -9,7 +11,7 @@ days_of_week[days_of_week.index('Thursday')].upcase!
 
 # 4
 weekdays = %w(Monday Tuesday Wednesday Thursday Friday)
-weekends = %(Saturday Sunday)
+weekends = %w(Saturday Sunday)
 days_of_week_split = [weekdays, weekends]
 
 # 5
