@@ -21,7 +21,7 @@ days_of_week_split[0][2] = "Woden's Day"
 days_of_week_split.delete_at(0)
 
 # 7
-days_of_week.sort!
+days_sorted = days_of_week.sort
 
 # 8
-puts days_of_week
+puts days_sorted
